@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:background="#F1F1F1">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enrollment Menu"
+        android:textSize="24sp"
+        android:textColor="#333"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="roboto"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxIOT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IOT (3 credits)"
+        android:textColor="#333"
+        android:layout_marginBottom="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxCyberSecurity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cyber Security (4 credits)"
+        android:textColor="#333"
+        android:layout_marginBottom="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxAI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI (3 credits)"
+        android:textColor="#333"
+        android:layout_marginBottom="15dp"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxGameDevelopment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Game Development (4 credits)"
+        android:textColor="#333"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#6200EE"
+        android:text="Submit Enrollment"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+</LinearLayout>

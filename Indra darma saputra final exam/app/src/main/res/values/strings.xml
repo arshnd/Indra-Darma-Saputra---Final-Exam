@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MainActivity Strings -->
+    <string name="app_name">Student Enrollment</string>
+    <string name="button_register">Register</string>
+    <string name="button_login">Login</string>
+
+    <!-- RegisterActivity Strings -->
+    <string name="hint_name">Enter your name</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="button_register_action">Register</string>
+    <string name="toast_fill_fields">Please fill all fields</string>
+    <string name="toast_registration_successful">Registration successful</string>
+    <string name="toast_registration_failed">Registration failed</string>
+
+    <!-- LoginActivity Strings -->
+    <string name="hint_email_login">Enter your email</string>
+    <string name="hint_password_login">Enter your password</string>
+    <string name="button_login_action">Login</string>
+    <string name="toast_login_successful">Login successful</string>
+    <string name="toast_login_failed">Invalid credentials</string>
+
+    <!-- General Strings -->
+    <string name="error_network">Network error. Please try again later.</string>
+
+</resources>
